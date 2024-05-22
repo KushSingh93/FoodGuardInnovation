@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Company Name</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="/Users/kushagarakumarsingh/Desktop/fgilogo.jpeg"
+        alt="Your Company Logo"
+        class="logo"
+      />
+
+      <label for="productSelect">Choose a product:</label>
+      <select id="productSelect">
+        <option value="bread">Bread</option>
+        <option value="paneer">Paneer</option>
+        <option value="butter">Butter</option>
+        <option value="cheese">Cheese</option>
+        <option value="ghee">Ghee</option>
+      </select>
+
+      <label for="expiryDate">Enter expiry date:</label>
+      <input type="date" id="expiryDate" />
+
+      <button id="calculatePrice">Calculate Price</button>
+
+      <div class="result">
+        <p id="originalMrp"></p>
+        <p id="newPrice"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
